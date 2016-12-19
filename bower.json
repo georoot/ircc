@@ -1,0 +1,21 @@
+{
+  "name": "ircc",
+  "description": "Graphics IRC client in electron",
+  "main": "app.js",
+  "authors": [
+    "Rahul Bhola <rb1223334444@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "irc",
+    "electron"
+  ],
+  "homepage": "https://github.com/georoot/ircc",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
