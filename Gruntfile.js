@@ -11,6 +11,14 @@ module.exports = function(grunt) {
             }
           }
         },
+        copy: {
+          main: {
+            expand: true,
+            files: [
+              {expand:true,cwd: './app/view/',src:['**'], dest: './build/view'},
+            ],
+          },
+        },
         sass: {                              // Task
           dist: {                            // Target
             files: {
@@ -22,5 +30,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.registerTask('default', ['htmlmin','sass','browserify']);
+    grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.registerTask('default', ['htmlmin','sass','browserify','copy']);
 };
