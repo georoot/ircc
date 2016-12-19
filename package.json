@@ -1,0 +1,23 @@
+{
+  "name": "ircc",
+  "version": "0.0.1",
+  "description": "Graphics IRC client in electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georoot/ircc.git"
+  },
+  "keywords": [
+    "irc",
+    "electron"
+  ],
+  "author": "Rahul Bhola <rb1223334444@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/georoot/ircc/issues"
+  },
+  "homepage": "https://github.com/georoot/ircc#readme"
+}
