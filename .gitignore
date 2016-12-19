@@ -38,3 +38,6 @@ jspm_packages
 
 # Bower assets
 assets
+
+# Final build
+build
