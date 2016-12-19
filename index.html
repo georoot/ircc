@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>IRCC</title>
   </head>
-  <body>
-    <h1>IRCC</h1>
-    <p>Better IRC Graphical client</p>
+  <body ng-app="ircc">
+    <div ng-view></div>
+
+    <script src="assets/angular/angular.min.js"></script>
+    <script src="assets/angular-route/angular-route.js"></script>
+    <script src="static/js/app.js"></script>
   </body>
 </html>
