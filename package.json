@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "angular": "^1.6.0",
-    "angular-route": "^1.6.0"
+    "angular-route": "^1.6.0",
+    "irc": "^0.5.2"
   }
 }
