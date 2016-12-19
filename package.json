@@ -4,6 +4,7 @@
   "description": "Graphics IRC client in electron",
   "main": "app.js",
   "scripts": {
+    "prestart" : "bash ./build.sh",
     "start":"electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
