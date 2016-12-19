@@ -41,3 +41,6 @@ assets
 
 # Final build
 build
+
+# scss cache
+.sass-cache

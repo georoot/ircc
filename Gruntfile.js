@@ -10,9 +10,17 @@ module.exports = function(grunt) {
               'build/index.html': 'app/index.html'
             }
           }
+        },
+        sass: {                              // Task
+          dist: {                            // Target
+            files: {
+              'build/app.min.css': 'app/style/main.scss'
+            }
+          }
         }
     })
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
-    grunt.registerTask('default', ['htmlmin','browserify']);
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.registerTask('default', ['htmlmin','sass','browserify']);
 };

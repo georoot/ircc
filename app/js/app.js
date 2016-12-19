@@ -1,6 +1,5 @@
 'use strict';
  
 var angular = require('angular');
-var app = angular.module('ircc', [ ]);
-
-alert("123");
+var ngRoute = require('angular-route');
+var app = angular.module('ircc', [ngRoute]);
