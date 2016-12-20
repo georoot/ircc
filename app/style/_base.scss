@@ -11,6 +11,19 @@
         background: #303D74;
         float: left;
         color: white;
+
+        #navTitle {
+            background: rgba(0,0,0,.3);
+            min-height: 80px;
+            width: 100%;
+
+            h3 {
+                margin: 0px;
+                padding: 0px;
+                padding-top: 25px;
+                margin-left: 25px;
+            }
+        }
     }
 
     .canvas {
